@@ -1,0 +1,19 @@
+.parent{
+  display: flex;
+flex-direction: row;
+min-width: 600px;
+
+
+}
+
+.column{
+  min-width: 500px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.photo img{
+  width: 500px;
+  height: auto;
+  object-fit: cover;
+}

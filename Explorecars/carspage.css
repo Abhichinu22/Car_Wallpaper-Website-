@@ -1,0 +1,222 @@
+.main{
+    margin:0px;
+    padding-top: 150px;
+    
+  }
+  
+  .wall_1{
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(96, 99, 102);
+  
+  
+  }
+  .wall_2{
+  
+    position: relative;
+    left: 100px;
+    top: 35px;
+  }
+  .wall_3{
+    position: relative;
+    left:30px ;
+    top: 13px;
+    width: 90px;
+    height: 70px;
+    background-color:rgb(96, 99, 102);
+  }
+  .wall_3 img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgb(96, 99, 102);
+  
+  } 
+  .button-search{
+      font-family: 'Times New Roman', Times, serif;
+      cursor: pointer;
+  }
+  
+  .but1{
+    position: absolute;
+    right: 300px;
+    top: 45px;
+    font-size: 20px;
+    color: aliceblue;
+    cursor: pointer;
+    text-decoration:line-through;
+  }
+  #but2{
+    color: aliceblue;
+    background-color:transparent;
+    border:none;
+    font-weight:bolder;
+    cursor: pointer;
+    text-decoration:underline;
+ 
+  }
+  
+  .but3{
+    position: absolute;
+    right: 220px;
+    top: 45px;
+    font-size: 20px;
+  }
+  #but3_1{
+    color: aliceblue;
+    background-color:transparent;
+    border:none;
+    font-weight:bolder;
+    cursor: pointer;
+  }
+  
+  .but4{
+    position: absolute;
+    right: 120px;
+    top: 45px;
+   
+  }
+  #but4_1{
+    color: aliceblue;
+    background-color:transparent;
+    border:none;
+    font-weight:bolder;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .but4:hover{
+    background-color:rgb(73, 50, 125);
+  } 
+  
+  
+  
+   #search1{
+    height: 29px;
+    width: 800px;
+    border-radius: 9px;
+  }
+  .button-search{
+    height: 30px;
+    width: 100px;
+    border-radius: 2px;
+  }
+  
+  
+  .tobe{
+    position:fixed;
+    top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      height: 60px;
+      width: 100%;
+      background-color: cyan;
+      margin:0px;
+     
+     
+          
+  }
+  .tobe_1{
+    font-size: 40px;
+    color:grey;
+  
+  }
+  
+  .container0{
+    margin: 0px;
+    padding: 0px;
+  }
+  .container1{
+    max-width: 1300px;
+    width: 90%;
+    padding: 40px;
+   margin: auto;
+  }
+  .container2{
+    display: flex;
+    gap: 25px;
+  }
+  .column{
+    display: flex;
+    flex-direction:column;
+    gap: 25px;
+    min-width: 30%;
+
+  
+  }
+  
+  .photo img{
+    width: 100%;
+    height: 100%;
+    border: 5px;
+    object-fit: cover;
+  }
+  .vie{
+    background-color: green;
+    color: white;
+    height: 20px;
+    font-family: cursive;
+    cursor: pointer;
+  }
+
+  .bottom_div_1{
+    position: absolute;
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    height: 200px;
+    background-color:silver;
+    overflow: hidden;
+    color:black;
+  }
+  .follow{
+    position: absolute;
+    color: black;
+    font-size:20px;
+    left: 20px;
+  }
+  
+  
+  .face{
+    position: absolute;
+   height: 30px;
+   width: 30px;
+   top: 56px;
+   left:20px;
+   cursor: pointer;
+  }
+  .twitter{
+    position: absolute;
+   height: 30px;
+   width: 30px;
+   left:100px;
+   top: 56px;
+   cursor: pointer;
+  }
+  .youtube{
+    position: absolute;
+   height: 30px;
+   width: 30px;
+   left: 60px;
+   top: 56px;
+   cursor: pointer;
+  }
+  .instagram  {
+    position: absolute;
+   height: 30px;
+   width: 30px;
+   left: 140px;
+   top: 56px;
+   cursor: pointer;
+  }
+  .fotter{
+    position: absolute;
+   top:130px;
+   left: 500px;
+    
+  }
+
+
